@@ -1,0 +1,96 @@
+2016-01-29 23:16:45,857 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-01-29 23:16:46,076 [    219]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-141.2456560, 01 Dec 2015 00:00) 
+2016-01-29 23:16:46,076 [    219]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2016-01-29 23:16:46,076 [    219]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_71-b15 (Oracle Corporation) 
+2016-01-29 23:16:46,076 [    219]   INFO -        #com.intellij.idea.Main - JVM: 25.71-b15 (Java HotSpot(TM) 64-Bit Server VM) 
+2016-01-29 23:16:46,294 [    437]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms256m -Xmx1280m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -da -Djna.nosys=true -Djna.boot.library.path= -Djna.debug_load=true -Djna.debug_load.jna=true -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Didea.paths.selector=AndroidStudio1.5 -Didea.platform.prefix=AndroidStudio -Djb.vmOptions=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Xbootclasspath/a:C:\Program Files\Android\Android Studio\lib\boot.jar -Didea.jre.check=false 
+2016-01-29 23:16:46,607 [    750]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 313 ms 
+2016-01-29 23:16:46,654 [    797]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2016-01-29 23:16:46,716 [    859]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2016-01-29 23:17:06,007 [  20150]   INFO - llij.ide.plugins.PluginManager - 30 plugins initialized in 6091 ms 
+2016-01-29 23:17:06,023 [  20166]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android NDK Support (1.0), Android Support (10.1.5.1), CVS Integration (11), Copyright (8.1), Coverage, EditorConfig (1.0), Git Integration (8.1), GitHub, Google Analytics Uploader (1.0), Google App Indexing (0.1), Google Cloud Testing (1.0), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Login (1.0), Google Services (0.1), Gradle, Groovy (9.0), I18n for Java, IDEA CORE, IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (0.1), Maven Integration, Properties Support, SDK Updater (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TestNG-J (8.0), hg4idea (10.0) 
+2016-01-29 23:17:27,195 [  41338]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.CoreProgressManager$1@505956e2; elapsed time was 78ms 
+2016-01-29 23:17:27,711 [  41854]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2016-01-29 23:17:27,727 [  41870]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=1286340608 
+2016-01-29 23:17:28,008 [  42151]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier.exe 
+2016-01-29 23:17:28,164 [  42307]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-01-29 23:17:35,405 [  49548]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2016-01-29 23:17:35,405 [  49548]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2016-01-29 23:18:04,340 [  78483]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-01-29 23:18:10,432 [  84575]   INFO -                  TestNG Runner - Create TestNG Template Configuration 
+2016-01-29 23:18:14,927 [  89070]   INFO - ellij.project.impl.ProjectImpl - 22 project components initialized in 10447 ms 
+2016-01-29 23:18:14,927 [  89070]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-01-29 23:18:23,623 [  97766]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = C:/Program Files/Android/Android Studio/lib/idea.jar!/resources/html5-schema/html5.rnc 
+2016-01-29 23:18:23,623 [  97766]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = C:/Program Files/Android/Android Studio/lib/idea.jar!/resources/html5-schema/xhtml5.rnc 
+2016-01-29 23:18:23,623 [  97766]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = C:/Program Files/Android/Android Studio/lib/idea.jar!/resources/html5-schema/html5chars.ent 
+2016-01-29 23:18:30,558 [ 104701]   INFO - pl.stores.ApplicationStoreImpl - 88 application components initialized in 83926 ms 
+2016-01-29 23:18:30,771 [ 104914]   INFO - .intellij.idea.IdeaApplication - App initialization took 141865 ms 
+2016-01-29 23:18:38,145 [ 112288]   WARN - dea.updater.SdkComponentSource - Couldn't find existing SDK 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Unable to locate SDK within the Android studio installation. 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2016-01-29 23:18:40,223 [ 114366]   INFO - rtup.GradleSpecificInitializer - Unable to locate last SDK used by Android tools 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2016-01-29 23:18:47,200 [ 121343]   INFO - .startup.AndroidSdkInitializer - Unable to locate last SDK used by Android tools 
+2016-01-30 06:44:57,651 [26891794]  ERROR - ard.ConsolidatedProgressStep$1 -  
+com.android.tools.idea.welcome.install.WizardException: 
+	at com.android.tools.idea.welcome.install.InstallOperation.promptToRetry(InstallOperation.java:109)
+	at com.android.tools.idea.welcome.install.InstallComponentsOperation.perform(InstallComponentsOperation.java:78)
+	at com.android.tools.idea.welcome.install.InstallComponentsOperation.perform(InstallComponentsOperation.java:35)
+	at com.android.tools.idea.welcome.install.InstallOperation$1.compute(InstallOperation.java:80)
+	at com.android.tools.idea.welcome.install.InstallContext$Wrapper.run(InstallContext.java:126)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.android.tools.idea.welcome.wizard.ProgressStep.run(ProgressStep.java:170)
+	at com.android.tools.idea.welcome.install.InstallContext.run(InstallContext.java:76)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:72)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:151)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:68)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:149)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:68)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:149)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:68)
+	at com.android.tools.idea.welcome.wizard.InstallComponentsPath.runLongOperation(InstallComponentsPath.java:297)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep.doLongRunningOperation(ConsolidatedProgressStep.java:78)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep.access$000(ConsolidatedProgressStep.java:32)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep$1.run(ConsolidatedProgressStep.java:58)
+	at com.android.tools.idea.welcome.wizard.FirstRunWizardHost$LongRunningOperationWrapper.run(FirstRunWizardHost.java:434)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - Android Studio 1.5.1  Build #AI-141.2456560 
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - JDK: 1.8.0_71 
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - VM: Java HotSpot(TM) 64-Bit Server VM 
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - Vendor: Oracle Corporation 
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - OS: Windows 10 
+2016-01-30 06:44:57,822 [26891965]  ERROR - ard.ConsolidatedProgressStep$1 - Last Action:  
+2016-01-30 06:45:08,843 [26902986]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-01-30 06:45:08,843 [26902986]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-01-30 06:45:08,843 [26902986]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-01-30 06:45:09,000 [26903143]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-01-30 06:45:09,000 [26903143]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-01-30 06:45:09,000 [26903143]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-01-30 06:45:09,390 [26903533]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-01-30 06:45:09,390 [26903533]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-01-30 06:45:09,453 [26903596]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-01-30 06:45:09,484 [26903627]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 

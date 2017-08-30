@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\compiler.xml" timestamp="1503755178687" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\copyright\profiles_settings.xml" timestamp="1503755178706" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\encodings.xml" timestamp="1503755178720" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\gradle.xml" timestamp="1503755257761" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\animated_vector_drawable_26_0_0_alpha1.xml" timestamp="1503755257838" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\appcompat_v7_26_0_0_alpha1.xml" timestamp="1503755257859" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1503755257881" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\junit_4_12.xml" timestamp="1503755257899" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_annotations_26_0_0_alpha1.xml" timestamp="1503755257919" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_compat_26_0_0_alpha1.xml" timestamp="1503755257938" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_core_ui_26_0_0_alpha1.xml" timestamp="1503755257956" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_core_utils_26_0_0_alpha1.xml" timestamp="1503755257976" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_fragment_26_0_0_alpha1.xml" timestamp="1503755257994" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_media_compat_26_0_0_alpha1.xml" timestamp="1503755258014" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_v4_26_0_0_alpha1.xml" timestamp="1503755258035" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\libraries\support_vector_drawable_26_0_0_alpha1.xml" timestamp="1503755258056" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\misc.xml" timestamp="1503755348974" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\modules.xml" timestamp="1503755257786" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\runConfigurations.xml" timestamp="1503755257807" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\.idea\workspace.xml" timestamp="1503755410414" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\MyApplication.iml" timestamp="1503755257645" />
+    <file path="C:\Users\KumFamily\AndroidStudioProjects\MyApplication\app\app.iml" timestamp="1503755348925" />
+  </project-files>
+</conversion>
+

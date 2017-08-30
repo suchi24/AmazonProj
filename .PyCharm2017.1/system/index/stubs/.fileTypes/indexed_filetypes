@@ -1,0 +1,24 @@
+JavaScript￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887485
+Jinja2￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1498164887484
+PythonStub￿stub:com.jetbrains.python.pyi.PyiFileElementType,58￿1498164887483
+SQL￿stub:com.intellij.sql.psi.stubs.SqlFileElementType,5￿1498164887482
+SCSS￿stub:org.jetbrains.plugins.scss.psi.SassScssFileElementType,25￿1498164887481
+Ini￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1498164887480
+Cython￿stub:com.jetbrains.cython.psi.elementTypes.CythonFileElementType,58￿1498164887479
+Puppet￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1498164887478
+HTML￿stub:com.intellij.psi.tree.IStubFileElementType,0￿1498164887477
+XML￿binary stub builder:com.intellij.util.xml.stubs.builder.DomStubBuilder,21￿1498164887476
+Stylus￿stub:org.jetbrains.plugins.stylus.psi.StylusFileElementType,25￿1498164887475
+Literate CoffeeScript￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887474
+CSS￿stub:com.intellij.psi.css.CssFileElementType,25￿1498164887473
+CoffeeScript￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887472
+Python￿stub:com.jetbrains.python.psi.PyFileElementType,58￿1498164887471
+Less￿stub:org.jetbrains.plugins.less.psi.LessFileElementType,25￿1498164887470
+TypeScript JSX￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887469
+ActionScript￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887468
+JSX Harmony￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887467
+Mako￿stub:com.jetbrains.mako.psi.impl.MakoFileElementType,58￿1498164887466
+TypeScript￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887465
+Sass￿stub:org.jetbrains.plugins.scss.psi.SassScssFileElementType,25￿1498164887464
+ECMAScript 6￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887463
+Flow￿stub:com.intellij.lang.javascript.types.JSFileElementType,-335314891￿1498164887462
