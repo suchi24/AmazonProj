@@ -5,14 +5,6 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.lang.Exception;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.By;
-
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 import org.openqa.selenium.WebElement;
 
@@ -40,7 +32,6 @@ public class ReUsableMethods {
 	static String fireFoxBrowser;
 	static String chromeBrowser;
 
-	
 	static String result;
 
 	static int intRowCount = 0;
@@ -56,12 +47,12 @@ public class ReUsableMethods {
 	 * Creation Date: Aug 23 2017
 	 * Last Modified: Aug 23 2017
 	 * */
-	public static void enterText(WebElement obj, String textVal, String objName) throws IOException{
+	public static void enterText(WebElement obj, String textVal, String objName){
 		if(obj.isDisplayed()){
 			obj.sendKeys(textVal);
-			Update_Report("Pass: ", textVal + " is entered" , objName + " in text box");
+			System.out.println("Pass: " + textVal + " is entered in " + objName +" field");
 		}else{
-			Update_Report("Fail: ", textVal + " is entered", objName + " is invalid");
+			System.out.println("Fail: " + objName + " field is not displayed,please check your application");
 
 		}
 
@@ -74,13 +65,13 @@ public class ReUsableMethods {
 	 * Last Modified: Aug 23 2017
 	 * */
 	
-	public static void clickButton(WebElement obj,  String objName) throws IOException{
+	public static void clickButton(WebElement obj,  String objName){
 		
 		if(obj.isDisplayed()){
 			obj.click();
-			Update_Report("Pass: ", objName , " button is clicked");
+			System.out.println("Pass: " + objName +" is clicked.");
 		}else{
-			Update_Report("Fail: " ,objName, " button is not clicked");
+			System.out.println("Fail: " + objName + " field is not displayed,please check your application");
 
 		}
 		
@@ -168,50 +159,5 @@ public class ReUsableMethods {
 		} 
 	}
 
-  
 
-
-public static WebElement getLocator(WebDriver driver, String locatorType, String locatorValue) throws Exception {
-	if (locatorType.toLowerCase().equals("id")) 
-			return driver.findElement(By.id(locatorValue));
-	else if (locatorType.toLowerCase().equals("name"))
-			return driver.findElement(By.name(locatorValue));
-	else if (locatorType.toLowerCase().equals("classname") || (locatorType.toLowerCase().equals("class")))
-		return driver.findElement(By.className(locatorValue));
-	else if (locatorType.toLowerCase().equals("tagname") || (locatorType.toLowerCase().equals("tag")))
-		return driver.findElement(By.tagName(locatorValue));
-	else if (locatorType.toLowerCase().equals("xpath"))
-		return driver.findElement(By.xpath(locatorValue));
-	else if (locatorType.toLowerCase().equals("css") || (locatorType.toLowerCase().equals("cssselector")))
-		return driver.findElement(By.cssSelector(locatorValue));
-	else if (locatorType.toLowerCase().equals("linktext") || (locatorType.toLowerCase().equals("link")))
-		return driver.findElement(By.linkText(locatorValue));
-	else if (locatorType.toLowerCase().equals("partiallinktext"))
-		return driver.findElement(By.partialLinkText(locatorValue));
-	else
-		throw new Exception("Locator Type " + locatorType + " is not defined");
-}
-public static String[][] readExcelSheet(String path, String sheetname) throws IOException {
-	
-	File xlFile = new File(path);
-	FileInputStream xlDoc = new FileInputStream(xlFile);
-	HSSFWorkbook wb = new HSSFWorkbook(xlDoc);
-	HSSFSheet sheet = wb.getSheet(sheetname);
-	
-	int iRowCount = sheet.getLastRowNum() + 1;
-	int iColCount = sheet.getRow(0).getLastCellNum();
-	
-	String xlData[][] = new String[iRowCount][iColCount];
-	//System.out.print("row = " + iRowCount + " col = " + iColCount);
-	
-	for (int i = 0; i < xlData.length; i++){
-		for (int j = 0; j < xlData[0].length; j++){
-			xlData[i][j] = sheet.getRow(i).getCell(j).getStringCellValue();
-			//System.out.print(sheet.getRow(i).getCell(j).getStringCellValue() + " ");
-		}
-	}
-	
-	return xlData;
-	
-}
 }
